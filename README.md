@@ -59,6 +59,8 @@ Appid day of defeat source : 232290
 adduser srvdod
 su srvdod
 mkdir /home/srvdod/srcds/
+cd ~/srcds/dod_s/
+git clone git@github.com:micmacx/dod.git
 cd /home/srvdod/srcds/
 wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
 tar -xvzf steamcmd_linux.tar.gz
@@ -78,11 +80,7 @@ Afin de vérifier que l'utilitaire a bien télécharger tous les fichiers,on lan
 
 Voilà c'est fait, la base du serveur est installée.
 
-Maintenant il faut cloner git.
-```
-cd ~/srcds/dod_s/
-git clone git@github.com:micmacx/dod.git
-```
+
 # Trouver son steamid et ajouter le bind pour afficher le menu admin :
 
 Dans l'interface "mes jeux"
