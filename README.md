@@ -167,6 +167,7 @@ cd ~/srcds/dod_s/
 
 ./srcds_run -game dod -port 27015 +maxplayers 20 +map dod_avalanche
 
+si vous ne modifiez pas la crontab, sinon pas besoin, le serveur se lancera tout seul.
 
 # Trouver les ports à ouvrir, rediriger :
 Lancer le serveur de jeu.
@@ -174,3 +175,20 @@ Lancer le serveur de jeu.
 Netstat -uta
 
 Chercher les ports en rapport avec le jeu.
+
+# Lancer le serveur automatiquement et le relancer si il se coupe
+copier le fichier dod et test_dod dans un répertoire path
+
+afficher les répertoires path :
+
+echo $PATH
+
+puis editer la crontab
+
+crontab -e
+
+ajouter la ligne
+
+* * * * * /usr/local/bin/test_dod
+
+Sauvegarder et c'est ok, toutes les minutes il y aura un test éffectué qui lancera ou relancera le serveur si il n'est pas en marche.
