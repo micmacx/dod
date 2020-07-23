@@ -1,0 +1,77 @@
+﻿"Phrases"
+{
+	"Admin Sounds"
+	{
+		"fr"		"Gestion des sons"
+	}
+
+	"Play sound"
+	{
+		"fr"		"Jouer un son"
+	}
+
+	"Stop sound"
+	{
+		"fr"		"Stopper le son joué"
+	}
+
+	"Wait a moment"
+	{
+		"fr"		"Vous devez attendre un instant avant de pouvoir lancer un nouveau son"
+	}
+
+	"NoSoundPlayed"
+	{
+		"fr"		"Aucun son joué actuellement"
+	}
+
+	"AdminCantStop"
+	{
+		"fr"		"Vous ne pouvez pas arreter le son joué"
+	}
+
+	"Stop_Type"
+	{
+		"fr"		"Taper"
+	}
+
+	"Stop_to"
+	{
+		"fr"		"pour arreter le son"
+	}
+
+	"StopAll_to"
+	{
+		"fr"		"pour ne plus entendre aucun son"
+	}
+
+	"StopAll Reenabled"
+	{
+		"fr"		"pour réactiver les sons"
+	}
+
+	"StopAll Enabled"
+	{
+		"fr"		"Vous n'entendrez plus aucun son jusqu'à ce que vous retapiez la commande !stopall"
+	}
+
+	"StopAll Disabled"
+	{
+		"fr"		"Vous entendrez tous les sons à partir de maintenant"
+	}
+
+	"Now playing"
+	{
+		"fr"		"Actuellement joué : {1}"
+	}
+
+
+	"AdminCantStop"
+	{
+		"en"		"Vous ne pouvez pas arreter le son joué"
+	}
+	"AdminStopSounds"
+	{
+		"fr"		"{1} a arreté le son!"
+	}
+}

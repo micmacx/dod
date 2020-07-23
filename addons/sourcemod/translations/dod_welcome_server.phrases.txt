@@ -1,0 +1,9 @@
+"Phrases"
+{
+	"Message"
+	{
+			"#format"	"{1:s}"
+			"en"		"Welcome {1}! Have Fun!\nNo Cheat ! No Camp\nFair-Play !"
+			"fr"		"Bienvenue {1}! Bon jeu!\nNo Cheat ! No Camp\nFair-Play !"
+	}
+}
