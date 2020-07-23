@@ -205,7 +205,7 @@ les 2 processus sont 22195 et 22199, c'est à adapter selon les numéros de proc
 kill 22195 22199
 dod
 ```
-Vérifier que tout est ok dans la console du serveur, si tout est ok, couper la console et attender que la crontab relance le serveur en automatique.
+Vérifier que tout est ok dans la console du serveur, si tout est ok, couper la console et attendre que la crontab relance le serveur en automatique.
 
 # Date de création de ce post : 23/07/2020
 
