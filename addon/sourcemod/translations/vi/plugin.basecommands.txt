@@ -1,8 +1,0 @@
-"Phrases"
-{
-	"Admin access"
-	{
-		"vi"		"Truy cập quản trị viên"
-	}
-
-}
