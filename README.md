@@ -122,7 +122,14 @@ Lancer le serveur de jeu.
 ```
 Netstat -uta
 ```
-Chercher les ports en rapport avec le jeu.
+Voici les ports que j'ai dirigé vers mon serveur mais celà pourrait évoluer selon le bon vouloir de Steam (Valve) donc il vaut mieux connaître la commande ci dessus :
+```
+27005	UDP
+26901	UDP
+27020	UDP
+27015	UDP
+27015	TCP
+```
 
 # Lancer le serveur automatiquement et le relancer si il se coupe
 copier le fichier dod et test_dod dans un répertoire path
