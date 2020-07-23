@@ -137,6 +137,9 @@ copier le fichier dod et test_dod dans un répertoire path
 afficher les répertoires path :
 ```
 echo $PATH
+cd ~/srcds/dod_s/dod/
+sudo cp dod /usr/local/bin/dod
+sudo cp test_dod /usr/local/bin/test_dod
 ```
 puis editer la crontab
 ```
