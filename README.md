@@ -1,5 +1,3 @@
-# Non fonctionnel, en cours de débuguage
-
 # Tuto 2020 : Installation d'un serveur Day of Defeat: Source + Clonage des Plugins nécéssaires pour le faire fonctionner avec les bots Rcbot2 hypercheatés.
 
 Mon install a été réalisé sur une distrib debian sans interface graphique
@@ -69,7 +67,6 @@ wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
 tar -xvzf steamcmd_linux.tar.gz
 chmod +x steamcmd.sh
 ./steamcmd.sh
-git reset --hard
 ```
 
 Une console propriétaire steam va se lancer ou un shell, c'est comme vous voulez, dedans il faut taper :
@@ -145,3 +142,19 @@ ajouter la ligne
 * * * * * /usr/local/bin/test_dod
 ```
 Sauvegarder et c'est ok, toutes les minutes il y aura un test éffectué qui lancera ou relancera le serveur si il n'est pas en marche.
+
+# Couper le serveur et le relancer en voyant la console
+Ca peut être utile quand on a des problèmes de plugins, taper dans une console en fullscreen:
+```
+ps aux
+```
+plein de choses apparaissent  mais surtout 2 lignes qui nous intéressent
+```
+srvdod   22195  0.0  0.0   2388  1680 ?        S    18:24   0:00 /bin/sh ./srcds_run -game dod -port 27015 +maxplayers 20 +map dod_avalanche +sv_pure 1
+srvdod   22199 10.3  1.6 307372 137232 ?       Sl   18:24   0:01 ./srcds_linux -game dod -port 27015 +maxplayers 20 +map dod_avalanche +sv_pure 1
+```
+les 2 processus sont 22195 et 22199, c'est à adapter selon les numéros de processus que vous aurez, taper rapidement, sinon la crontab va détecter que le serveur est coupé 
+```
+kill 22195 22199
+dod
+```
