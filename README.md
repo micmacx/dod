@@ -59,13 +59,15 @@ Appid day of defeat source : 232290
 adduser srvdod
 su srvdod
 mkdir /home/srvdod/srcds/
-cd ~/srcds/dod_s/
+mkdir /home/srvdod/srcds/dod_s
+cd /home/srvdod/srcds/dod_s/
 git clone git@github.com:micmacx/dod.git
-cd /home/srvdod/srcds/
+cd ..
 wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
 tar -xvzf steamcmd_linux.tar.gz
 chmod +x steamcmd.sh
 ./steamcmd.sh
+git reset --hard
 ```
 
 Une console propriétaire steam va se lancer ou un shell, c'est comme vous voulez, dedans il faut taper :
