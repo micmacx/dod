@@ -1,4 +1,5 @@
-# 2020 Plugins nécéssaires pour Faire fonctionner un serveur Day of Defeat : Source avec les bots Rcbot2 hypercheatés.
+# 2020 
+#Tuto installation d'un serveur Day of Defeat: Source + Clonage des Plugins nécéssaires pour le faire fonctionner avec les bots Rcbot2 hypercheatés.
 
 Mon install a été réalisé sur une distrib debian sans interface graphique
 
