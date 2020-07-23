@@ -1,11 +1,14 @@
 # Tuto 2020 : Installation d'un serveur Day of Defeat: Source + Clonage des Plugins nécéssaires pour le faire fonctionner avec les bots Rcbot2 hypercheatés.
 
+# Introduction
 Mon install a été réalisé sur une distrib debian sans interface graphique, je ne suis en aucun cas l'auteur de ces plugins ou de Day_of_Defeat : Source, mais étant donné que le jeu commence à vieillir, valve ne nous ayant pas facilité les choses en ayant changé le moteur du jeu puis plus tard l'arborescence des répertoires, la complexité d'obtenir des informations correctes pour installer un serveur devient un vrai parcours du combatant. C'est pour celà que je me suis fait ce pense bête pour éviter trois semaines de recherches et d'installation, en même temps si celà peut aider d'autres personne c'est un plus.
 
 # Liste des plugins :
 ```
-0:      "Metamod:Source 1.10.7-dev"
+0:      "Metamod:Source 1.10.7-dev https://www.sourcemm.net/"
 1:      "Rcbot2 http://rcbot.bots-united.com/forums/index.php?showtopic=2099" 
+
+Tous les plugins suivant sont des plugins de SourceMod disponibles sur le site : https://www.sourcemod.net/plugins.php
 01 "Anti-Flood" (1.10.0.6490) by AlliedModders LLC
 02 "DoDS Swapteams" (1.0.600) by <eVa>Dog
 03 "TK Manager" (1.11) by Stevo.TVR
@@ -47,7 +50,7 @@ Mon install a été réalisé sur une distrib debian sans interface graphique, j
 39 "RandomCycle" (1.10.0.6490) by AlliedModders LLC
 40 "DoD:S Class Manager" (1.0) by Ben
 ```
-# Tuto : Installation d'un serveur Day of Defeat : Source
+# Début du Tuto : Installation d'un serveur Day of Defeat : Source
 
 Pour rappel, l'installation a été réalisé sur une distrib debian.
 
@@ -56,7 +59,7 @@ Première chose à savoir :
 Appid day of defeat source : 232290
 ```
 
-# Tuto
+Dans une console sur le serveur, taper :
 ```
 adduser srvdod
 su srvdod
@@ -81,30 +84,23 @@ exit (si ok)
 ```
 Afin de vérifier que l'utilitaire a bien télécharger tous les fichiers,on lance 2 fois la même commande, si c'est ok : “Success! App '232290' fully installed.”
 
-Voilà c'est fait, la base du serveur est installée.
+Voilà c'est fait, la base du serveur est installée, il ne reste qu'à le configurer mais avant il vous faut quelques petites infos.
 
 
 # Trouver son steamid et ajouter le bind pour afficher le menu admin :
-
-Dans l'interface "mes jeux"
-
+```
+Dans l'interface steam "mes jeux"
 Clic droit sur Day of Defeat : Source-->Propriétés
-
 Définir les options de lancement
-
 ajouter : "-console"
-
 Lancer dod en se connectant à un serveur
-
 appuyer sur escape
-
-dans la console taper status
-```
+la console apparait, dans la console taper : status
 bind "b" sm_admin 
-```
+bind "n" sm_admin_sounds_menu
 copier son steamdid
-
-aller sur le site https://steamidfinder.com/lookup/U%3A1%3A37484034/
+aller sur ce site pour trouver son vrai steamid : https://steamidfinder.com/lookup/U%3A1%3A37484034/
+```
 
 # Maintenant il suffit simplement de configurer quelques fichiers :
 ```
