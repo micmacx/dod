@@ -1,0 +1,8 @@
+#! /bin/sh
+echo "test Serveur Dod"
+if (pidof -x srcds_run && pidof -x srcds_linux); then
+echo "Le serveur tourne bien"
+else
+echo "Le serveur ne tourne pas bien"|pkill dod|pkill srcds_run|pkill srcds_linux|/usr/bin/nohup /usr/local/bin/dod >> /home/srvdod/serveur_dod.log
+fi
+

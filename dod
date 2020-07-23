@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/srcds/dod_s/ 
+./srcds_run -game dod -port 27015 +maxplayers 20 +map dod_avalanche
