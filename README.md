@@ -47,9 +47,12 @@ Mon install a été réalisé sur une distrib debian sans interface graphique
 ```
 # Tuto : Installation d'un serveur Day of Defeat : Source
 
-Pour rappel, l'installation a été réalisé sur un serveur debian.
+Pour rappel, l'installation a été réalisé sur une distrib debian.
+
 Première chose à savoir :
+```
 Appid day of defeat source : 232290
+```
 
 # Tuto
 ```
