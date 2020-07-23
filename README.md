@@ -163,7 +163,7 @@ sm_reloadadmins   // relis les fichiers de config pour les admins
 sm plugins list   // affiche les plugins installés dans SourceMod
 ```
 
-# Quelques bin à ajouter dans la console du jeu pour lancer les menus admin
+# Quelques bind à ajouter dans la console du jeu pour lancer les menus admin
 ```
 bind "b" sm_admin                // bind la touche p pour lancer le menu admin à lancer dans la console client du jeu
 bind "n" "sm_admin_sounds_menu"  //bind la touche n pour lancer le menu admin des sons
