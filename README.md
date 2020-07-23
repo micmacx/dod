@@ -1,9 +1,11 @@
 # Tuto 2020 : Installation d'un serveur Day of Defeat: Source + Clonage des Plugins nécéssaires pour le faire fonctionner avec les bots Rcbot2 hypercheatés.
 
-Mon install a été réalisé sur une distrib debian sans interface graphique
+Mon install a été réalisé sur une distrib debian sans interface graphique, je ne suis en aucun cas l'auteur de ces plugins ou de Day_of_Defeat : Source, mais étant donné que le jeu commence à vieillir, valve ne nous ayant pas facilité les choses en ayant changé le moteur du jeu puis plus tard l'arborescence des répertoires, la complexité d'obtenir des informations correctes pour installer un serveur devient un vrai parcours du combatant. C'est pour celà que je me suis fait ce pense bête pour éviter trois semaines de recherches et d'installation, en même temps si celà peut aider d'autres personne c'est un plus.
 
 # Liste des plugins :
 ```
+0:      "Metamod:Source 1.10.7-dev"
+1:      "Rcbot2 http://rcbot.bots-united.com/forums/index.php?showtopic=2099" 
 01 "Anti-Flood" (1.10.0.6490) by AlliedModders LLC
 02 "DoDS Swapteams" (1.0.600) by <eVa>Dog
 03 "TK Manager" (1.11) by Stevo.TVR
@@ -158,3 +160,47 @@ les 2 processus sont 22195 et 22199, c'est à adapter selon les numéros de proc
 kill 22195 22199
 dod
 ```
+# Quelque petites commandes utiles :
+```
+plugin_print      //affiche tous les plugins installé directement dans dod (pas dans sourcemod)
+sm_reloadadmins   // relis les fichiers de config pour les admins
+sm plugins list   // affiche les plugins installés dans SourceMod
+```
+
+# Quelques bin à ajouter dans la console du jeu pour lancer les menus admin
+```
+bind "b" sm_admin                // bind la touche p pour lancer le menu admin à lancer dans la console client du jeu
+bind "n" "sm_admin_sounds_menu"  //bind la touche n pour lancer le menu admin des sons
+```
+
+# Pour effectuer les mise à jour du serveur :
+```
+cd /home/srvdod/srcds
+./steamcmd.sh
+```
+Une console propriétaire steam va se lancer comme pour l'installation, dedans il faut taper :
+```
+login anonymous
+force_install_dir /home/srvdod/srcds/dod_s/
+app_update 232290 validate
+app_update 232290 validate
+exit (si ok)
+```
+```
+ps aux
+```
+plein de choses apparaissent  mais surtout 2 lignes qui nous intéressent
+```
+srvdod   22195  0.0  0.0   2388  1680 ?        S    18:24   0:00 /bin/sh ./srcds_run -game dod -port 27015 +maxplayers 20 +map dod_avalanche +sv_pure 1
+srvdod   22199 10.3  1.6 307372 137232 ?       Sl   18:24   0:01 ./srcds_linux -game dod -port 27015 +maxplayers 20 +map dod_avalanche +sv_pure 1
+```
+les 2 processus sont 22195 et 22199, c'est à adapter selon les numéros de processus que vous aurez, taper rapidement, sinon la crontab va détecter que le serveur est coupé 
+```
+kill 22195 22199
+dod
+```
+Vérifier que tout est ok dans la console du serveur, si tout est ok, couper la console et attender que la crontab relance le serveur en automatique.
+
+# Date de création de ce post : 23/07/2020
+
+Voilà je pense que tout est dit, Bon amusement... :-) :-) :-)
