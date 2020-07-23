@@ -52,55 +52,85 @@ Appid day of defeat source : 232290
 
 # Tuto
 adduser srvdod
+
 su srvdod
+
 mkdir /home/srvdod/srcds/
+
 cd /home/srvdod/srcds/
+
 wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
+
 tar -xvzf steamcmd_linux.tar.gz
+
 chmod +x steamcmd.sh
+
 ./steamcmd.sh
 
 Une console propriétaire steam va se lancer ou un shell, c'est comme vous voulez, dedans il faut taper :
 
 login anonymous
+
 force_install_dir /home/srvdod/srcds/dod_s/
+
 app_update 232290 validate
+
 app_update 232290 validate
+
 exit (si ok)
+
 Afin de vérifier que l'utilitaire a bien télécharger tous les fichiers,on lance 2 fois la même commande, si c'est ok : “Success! App '232290' fully installed.”
 
 Voilà c'est fait, la base du serveur est installée.
 
 Maintenant il faut cloner git.
+
 cd ~/srcds/dod_s/
+
 git clone git@github.com:micmacx/dod.git
 
 # Trouver son steamid et ajouter le bind pour afficher le menu admin :
 
 Dans l'interface "mes jeux"
+
 Clic droit sur Day of Defeat : Source-->Propriétés
+
 Définir les options de lancement
+
 ajouter : "-console"
+
 Lancer dod en se connectant à un serveur
+
 appuyer sur escape
+
 dans la console taper status
+
 bind "b" sm_admin 
+
 copier son steamdid
+
 aller sur le site https://steamidfinder.com/lookup/U%3A1%3A37484034/
 
 # Maintenant il suffit simplement de configurer quelques fichiers :
 ~/srcds/dod_s/dod/cfg/server.cfg //Modifier le nom du serveur, le lien du fast download...
+
 ~/srcds/dod_s/dod/cfg/mapcycle.txt  //Mettez le listing de toutes vos maps.
+
 ~/srcds/dod_s/dod/addons/sourcemod/configs/admins_simple.ini //mettez votre steamid pour pouvoir accéder au menu administration du serveur.
+
 ~/srcds/dod_s/dod/sound/ //Mettez vos fichiers sons dans ce répertoire
+
 ~/srcds/dod_s/dod/addons/sourcemod/configs/soundslist.cfg  //Modifier ce fichier pour y mettre vos sons personalisés. Il faut enlever les fichiers son commençant par music*.*
 
 # Pour Lancer le serveur :
 cd ~/srcds/dod_s/ 
+
 ./srcds_run -game dod -port 27015 +maxplayers 20 +map dod_avalanche
 
 
 # Trouver les ports à ouvrir, rediriger :
 Lancer le serveur de jeu.
+
 Netstat -uta
+
 Chercher les ports en rapport avec le jeu.
