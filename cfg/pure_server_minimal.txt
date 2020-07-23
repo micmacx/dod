@@ -1,0 +1,77 @@
+whitelist
+{
+	// Server rules used for sv_pure.
+	//
+	// Do not modify this file.
+	//
+	// See pure_server_whitelist_example.txt for more details on when this file is used and what the rules mean.
+
+	//
+	// Enforce consistency for a few critical files
+	//
+
+	sprites/scopes/scope_spring_ul.vmt		trusted_source
+	sprites/scopes/scope_spring_ul.vtf		trusted_source
+	sprites/scopes/scope_spring_ur.vmt		trusted_source
+	sprites/scopes/scope_spring_ur.vtf		trusted_source
+	sprites/scopes/scope_spring_ll.vmt		trusted_source
+	sprites/scopes/scope_spring_ll.vtf		trusted_source
+	sprites/scopes/scope_spring_lr.vmt		trusted_source
+	sprites/scopes/scope_spring_lr.vtf		trusted_source
+	sprites/scopes/scope_k43_ul.vmt		trusted_source
+	sprites/scopes/scope_k43_ul.vtf		trusted_source
+	sprites/scopes/scope_k43_ur.vmt		trusted_source
+	sprites/scopes/scope_k43_ur.vtf		trusted_source
+	sprites/scopes/scope_k43_ll.vmt		trusted_source
+	sprites/scopes/scope_k43_ll.vtf		trusted_source
+	sprites/scopes/scope_k43_lr.vmt		trusted_source
+	sprites/scopes/scope_k43_lr.vtf		trusted_source
+	particle/particle_smokegrenade1.vmt		trusted_source
+	particle/particle_smokegrenade.vtf		trusted_source
+	effects/stun.vmt		trusted_source
+	scripts/dsp_presets.txt		trusted_source
+	scripts/weapon_30cal.ctx		trusted_source
+	scripts/weapon_amerknife.ctx		trusted_source
+	scripts/weapon_bar.ctx		trusted_source
+	scripts/weapon_bazooka.ctx		trusted_source
+	scripts/weapon_c96.ctx		trusted_source
+	scripts/weapon_colt.ctx		trusted_source
+	scripts/weapon_frag_ger.ctx		trusted_source
+	scripts/weapon_frag_ger_live.ctx		trusted_source
+	scripts/weapon_frag_us.ctx		trusted_source
+	scripts/weapon_frag_us_live.ctx		trusted_source
+	scripts/weapon_garand.ctx		trusted_source
+	scripts/weapon_k98.ctx		trusted_source
+	scripts/weapon_k98_scoped.ctx		trusted_source
+	scripts/weapon_m1carbine.ctx		trusted_source
+	scripts/weapon_mg42.ctx		trusted_source
+	scripts/weapon_mp40.ctx		trusted_source
+	scripts/weapon_mp44.ctx		trusted_source
+	scripts/weapon_p38.ctx		trusted_source
+	scripts/weapon_pschreck.ctx		trusted_source
+	scripts/weapon_riflegren_ger.ctx		trusted_source
+	scripts/weapon_riflegren_ger_live.ctx		trusted_source
+	scripts/weapon_riflegren_us.ctx		trusted_source
+	scripts/weapon_riflegren_us_live.ctx		trusted_source
+	scripts/weapon_smoke_ger.ctx		trusted_source
+	scripts/weapon_smoke_us.ctx		trusted_source
+	scripts/weapon_spade.ctx		trusted_source
+	scripts/weapon_spring.ctx		trusted_source
+	scripts/weapon_thompson.ctx		trusted_source
+	models/player/german_rifleman.mdl		trusted_source
+	models/player/german_assault.mdl		trusted_source
+	models/player/german_support.mdl		trusted_source
+	models/player/german_sniper.mdl		trusted_source
+	models/player/german_mg.mdl		trusted_source
+	models/player/german_rocket.mdl		trusted_source
+	models/player/american_rifleman.mdl		trusted_source
+	models/player/american_assault.mdl		trusted_source
+	models/player/american_support.mdl		trusted_source
+	models/player/american_sniper.mdl		trusted_source
+	models/player/american_mg.mdl		trusted_source
+	models/player/american_rocket.mdl		trusted_source
+	materials/models/player/american/american_body.vmt		trusted_source
+	materials/models/player/american/american_gear.vmt		trusted_source
+	materials/models/player/german/german_body.vmt		trusted_source
+	materials/models/player/german/german_gear.vmt		trusted_source
+}

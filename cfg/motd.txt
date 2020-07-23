@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<TITLE>Anti-Camp</TITLE>
+		<META http-equiv=content-type content=text/html;charset=iso-8859-1>
+		<STYLE>	.classbodycopy {FONT-SIZE: 10pt; COLOR: #FFFFFF; FONT-FAMILY: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; TEXT-DECORATION: none}
+			.classWhiteHed {FONT-WEIGHT: bold; FONT-SIZE: 18pt; COLOR: #fff; FONT-FAMILY: Arial, Helvetica, Geneva, Swiss, SunSans-Regular}
+		</STYLE>
+		<META content="MSHTML 6.00.2800.1276" name=GENERATOR>
+	</HEAD>
+	<BODY text=white vLink=#655521 link=#655521 bgColor=#928148 topMargin=0>
+	<P>
+		<SPAN class=classbodycopy>
+			<br>
+			<B>Bienvenue sur <I>Anti Camping Fun</I></B>! 
+			<br><br>
+			Ce serveur n'est pas compliqué, pas de nom de team, on s'en fous,<br>
+			amusez vous, ne campez pas, jouez le flag...<br><br><br>
+			<B><I>Liste des plugins FUN:</I></B><br><br>
+			_"DoDS Swapteams" (1.0.600) by <eVa>Dog<br>
+			_"Anti-Flood" (1.10.0.6490) by AlliedModders LLC<br>
+			_"TK Manager" (1.11) by Stevo.TVR<br>
+			_"DoD Death Overlay" (1.1) by vintage<br>
+			_"Sound Commands" (1.10.0.6490) by AlliedModders LLC<br>
+			_"Dog's Prop Bonus Round" (1.13) by <eVa>Dog (edited by: retsam)<br>
+			_"dod welcome server" (2.0) by vintage by dodsplugins.net Team<br>
+			_"DoD SpawnProtect Source" (1.5.1) by FeuerSturm<br>
+			_"Dod:Source GoFlag" (1.1) by BenSib<br>
+			_"DOD:S Parachutes" (3.0) by orig. Script from SWAT_88, Vintage, Darkranger<br>
+			_"Nextmap" (1.10.0.6490) by AlliedModders LLC<br>
+			_"DOD:S Balancer" (1.0) by AMP<br>
+			_"DOD Laser Aim" (1.5DODS) by Darkranger(for DODS), original fom Leonardo(for CSS)<br>
+			_"MapChooser" (1.10.0.6490) by AlliedModders LLC<br>
+			_"Required Cappers Changer" (1.0.1) by Knagg0<br>
+			_"Rock The Vote" (1.10.0.6490) by AlliedModders LLC<br>
+			_"RandomCycle" (1.10.0.6490) by AlliedModders LLC<br>
+			_"DoD:S Class Manager" (1.0) by Ben<br>
+			_"Anticamp" (2.1.7) by Misery<br>
+
+
+
+ 
+		</SPAN>
+	</P>
+	</BODY>
+</HTML>

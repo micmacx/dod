@@ -1,0 +1,10 @@
+﻿"Phrases"
+{
+    "Welcome"
+    {
+        "en"        "Welcome! This server is running DoDs Parachutes."
+        "fr"        "Bienvenue! Ce serveur utilise le plugin DoDs Parachutes."
+        "de"        "Willkommen! Auf diesem Server laeuft DoDs Parachutes."
+        "nl"        "Welkom! Deze server draait DoDs Parachutes."
+    }
+}

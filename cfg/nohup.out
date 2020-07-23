@@ -1,0 +1,20 @@
+Auto detecting CPU
+Using default binary: ./srcds_linux
+Server will auto-restart if there is a crash.
+Setting breakpad minidump AppID = 232290
+Using breakpad crash handler
+dlopen failed trying to load:
+/home/srvdod/.steam/sdk32/steamclient.so
+with error:
+/home/srvdod/.steam/sdk32/steamclient.so: cannot open shared object file: No such file or directory
+Looking up breakpad interfaces from steamclient
+Calling BreakpadMiniDumpSystemInit
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.
+Setting breakpad minidump AppID = 300
+dlopen failed trying to load:
+/home/srvdod/.steam/sdk32/steamclient.so
+with error:
+/home/srvdod/.steam/sdk32/steamclient.so: cannot open shared object file: No such file or directory
+Looking up breakpad interfaces from steamclient
+Calling BreakpadMiniDumpSystemInit
+Setting breakpad minidump AppID = 232290

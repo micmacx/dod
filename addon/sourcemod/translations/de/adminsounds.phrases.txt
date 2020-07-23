@@ -1,0 +1,73 @@
+﻿"Phrases"
+{
+	"Admin Sounds"
+	{
+		"de"		"Verwaltung der Töne"
+	}
+
+	"Play sound"
+	{
+		"de"		"Einen Ton Spielen"
+	}
+
+	"Stop sound"
+	{
+		"de"		"Den gespielten Ton Anhalten"
+	}
+
+	"Wait a moment"
+	{
+		"de"		"Sollen Sie auf einen Augenblick warten, bevor einen neuen Ton spielen zu können"
+	}
+
+	"NoSoundPlayed"
+	{
+		"de"		"Kein gegenwärtig gespielter Ton"
+	}
+
+	"AdminCantStop"
+	{
+		"de"		"Sie können nicht den gespielten Ton anhalten"
+	}
+
+	"Stop_Type"
+	{
+		"de"		"Schreiben"
+	}
+
+	"Stop_to"
+	{
+		"de"		"Um den Ton anzuhalten"
+	}
+
+	"StopAll_to"
+	{
+		"de"		"Um einen Ton nicht mehr zu hören"
+	}
+
+	"StopAll Reenabled"
+	{
+		"de"		"Um die Töne neuzubeleben"
+	}
+
+	"StopAll Enabled"
+	{
+		"de"		"Sie werden einen Ton nicht mehr hören, bis Sie die Bestellung renovierten !Stopall"
+	}
+
+	"StopAll Disabled"
+	{
+		"de"		"Werden Sie alle Töne von nun an hören"
+	}
+
+	"Now playing"
+	{
+		"de"		"Gegenwärtig gespielt: {1}"
+	}
+
+
+	"AdminStopSounds"
+	{
+		"de"		"{1} hat den Ton angehalten !"
+	}
+}

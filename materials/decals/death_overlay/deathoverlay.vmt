@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "decals/death_overlay/deathoverlay"
+	"$alpha" 0
+	"$decal" 1
+	"$decalscale" 0.25
+}

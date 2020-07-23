@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Day of Defeat</TITLE>
+<META http-equiv=content-type content=text/html;charset=iso-8859-1>
+<STYLE>.classbodycopy {
+	FONT-SIZE: 10pt; COLOR: #FFFFFF; FONT-FAMILY: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; TEXT-DECORATION: none
+}
+.classWhiteHed {
+	FONT-WEIGHT: bold; FONT-SIZE: 18pt; COLOR: #fff; FONT-FAMILY: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2800.1276" name=GENERATOR></HEAD>
+<BODY text=white vLink=#655521 link=#655521 bgColor=#928148 topMargin=0>
+<P><SPAN class=classbodycopy><br><B>Welcome to <I>Day of Defeat: Source</I></B>! 
+<I>Day of Defeat: Source</I> is a World War II multiplayer game driven by the Source 
+engine. DoD:Source attempts to recreate WWII battles in both fictional and 
+non-fictional environments - the game puts you in the shoes (rather, combat 
+boots!) of an American or German soldier circa 1944, Western Europe. 
+<P>You can visit DoD at: <A 
+href="http://www.dayofdefeat.net/">http://www.dayofdefeat.net/</A> 
+</SPAN></SPAN></P></BODY></HTML>

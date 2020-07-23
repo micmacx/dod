@@ -1,0 +1,17 @@
+// Default mapcycle file for Day of Defeat
+//
+// DO NOT MODIFY THIS FILE!
+// Instead, copy it to mapcycle.txt and modify that file.  If no custom mapcycle.txt file is found,
+// this file will be used as the default.
+//
+// Also, note that the "mapcyclefile" convar can be used to specify a particular mapcycle file.
+
+dod_argentan
+dod_avalanche
+dod_flash
+dod_donner
+dod_anzio
+dod_kalt
+dod_jagd
+dod_colmar
+dod_palermo

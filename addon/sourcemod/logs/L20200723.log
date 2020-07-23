@@ -1,0 +1,172 @@
+L 07/23/2020 - 00:01:14: SourceMod log file session started (file "/home/srvdod/srcds/dod_s/dod/addons/sourcemod/logs/L20200723.log") (Version "1.10.0.6490")
+L 07/23/2020 - 00:01:14: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 00:02:20: [SM] Changed map to "dod_bunker_warfare_v1"
+L 07/23/2020 - 00:02:20: [SM] Changed map to "dod_bunker_warfare_v1"
+L 07/23/2020 - 00:02:21: -------- Mapchange to dod_bunker_warfare_v1 --------
+L 07/23/2020 - 00:02:21: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:02:22: -------- Mapchange to dod_bunker_warfare_v1 --------
+L 07/23/2020 - 00:02:22: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:02:27: [randomcycle.smx] RandomCycle has chosen dod_gan for the nextmap.
+L 07/23/2020 - 00:11:20: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 00:12:26: [SM] Changed map to "dod_stug"
+L 07/23/2020 - 00:12:26: [SM] Changed map to "dod_stug"
+L 07/23/2020 - 00:12:28: -------- Mapchange to dod_stug --------
+L 07/23/2020 - 00:12:28: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:12:30: -------- Mapchange to dod_stug --------
+L 07/23/2020 - 00:12:30: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:12:35: [randomcycle.smx] RandomCycle has chosen dod_cr44b3_remake for the nextmap.
+L 07/23/2020 - 00:21:28: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 00:22:34: [SM] Changed map to "dod_bunky"
+L 07/23/2020 - 00:22:34: [SM] Changed map to "dod_bunky"
+L 07/23/2020 - 00:22:35: -------- Mapchange to dod_bunky --------
+L 07/23/2020 - 00:22:35: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:22:36: -------- Mapchange to dod_bunky --------
+L 07/23/2020 - 00:22:36: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:22:41: [randomcycle.smx] RandomCycle has chosen dod_anzio for the nextmap.
+L 07/23/2020 - 00:31:34: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 00:31:37: [mapchooser.smx] Voting for next map has finished. Nextmap: dod_donner.
+L 07/23/2020 - 00:32:40: [SM] Changed map to "dod_donner"
+L 07/23/2020 - 00:32:40: [SM] Changed map to "dod_donner"
+L 07/23/2020 - 00:32:44: -------- Mapchange to dod_donner --------
+L 07/23/2020 - 00:32:44: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:32:45: -------- Mapchange to dod_donner --------
+L 07/23/2020 - 00:32:45: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:32:50: [randomcycle.smx] RandomCycle has chosen dod_orange_sniper for the nextmap.
+L 07/23/2020 - 00:41:43: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 00:41:56: [mapchooser.smx] Voting for next map has finished. Nextmap: dod_coire_rc3.
+L 07/23/2020 - 00:42:49: [SM] Changed map to "dod_coire_rc3"
+L 07/23/2020 - 00:42:49: [SM] Changed map to "dod_coire_rc3"
+L 07/23/2020 - 00:42:51: -------- Mapchange to dod_coire_rc3 --------
+L 07/23/2020 - 00:42:51: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:42:53: -------- Mapchange to dod_coire_rc3 --------
+L 07/23/2020 - 00:42:53: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:42:58: [randomcycle.smx] RandomCycle has chosen dod_flash for the nextmap.
+L 07/23/2020 - 00:51:51: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 00:52:57: [SM] Changed map to "dod_harrington"
+L 07/23/2020 - 00:52:57: [SM] Changed map to "dod_harrington"
+L 07/23/2020 - 00:52:59: -------- Mapchange to dod_harrington --------
+L 07/23/2020 - 00:52:59: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:53:01: -------- Mapchange to dod_harrington --------
+L 07/23/2020 - 00:53:01: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 00:53:06: [randomcycle.smx] RandomCycle has chosen dod_bunker_warfare_v1 for the nextmap.
+L 07/23/2020 - 01:01:59: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 01:03:05: [SM] Changed map to "dod_breugelb8"
+L 07/23/2020 - 01:03:05: [SM] Changed map to "dod_breugelb8"
+L 07/23/2020 - 01:03:09: -------- Mapchange to dod_breugelb8 --------
+L 07/23/2020 - 01:03:09: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:03:11: -------- Mapchange to dod_breugelb8 --------
+L 07/23/2020 - 01:03:11: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:03:16: [randomcycle.smx] RandomCycle has chosen dod_sniperarena_dgs2 for the nextmap.
+L 07/23/2020 - 01:12:09: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 01:13:15: [SM] Changed map to "dod_flash"
+L 07/23/2020 - 01:13:15: [SM] Changed map to "dod_flash"
+L 07/23/2020 - 01:13:16: -------- Mapchange to dod_flash --------
+L 07/23/2020 - 01:13:16: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:13:17: -------- Mapchange to dod_flash --------
+L 07/23/2020 - 01:13:17: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:13:22: [randomcycle.smx] RandomCycle has chosen dod_beachlanding_tdf for the nextmap.
+L 07/23/2020 - 01:22:15: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 01:23:21: [SM] Changed map to "dod_arrierveld"
+L 07/23/2020 - 01:23:21: [SM] Changed map to "dod_arrierveld"
+L 07/23/2020 - 01:23:25: -------- Mapchange to dod_arrierveld --------
+L 07/23/2020 - 01:23:26: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:23:27: -------- Mapchange to dod_arrierveld --------
+L 07/23/2020 - 01:23:27: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:23:32: [randomcycle.smx] RandomCycle has chosen dod_lennon for the nextmap.
+L 07/23/2020 - 01:32:25: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 01:33:31: [SM] Changed map to "dod_harrington"
+L 07/23/2020 - 01:33:31: [SM] Changed map to "dod_harrington"
+L 07/23/2020 - 01:33:33: -------- Mapchange to dod_harrington --------
+L 07/23/2020 - 01:33:33: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:33:35: -------- Mapchange to dod_harrington --------
+L 07/23/2020 - 01:33:35: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:33:40: [randomcycle.smx] RandomCycle has chosen dod_palermo for the nextmap.
+L 07/23/2020 - 01:42:33: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 01:43:39: [SM] Changed map to "dod_anzio"
+L 07/23/2020 - 01:43:39: [SM] Changed map to "dod_anzio"
+L 07/23/2020 - 01:43:43: -------- Mapchange to dod_anzio --------
+L 07/23/2020 - 01:43:44: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:43:45: -------- Mapchange to dod_anzio --------
+L 07/23/2020 - 01:43:45: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:43:50: [randomcycle.smx] RandomCycle has chosen dod_stug for the nextmap.
+L 07/23/2020 - 01:52:43: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 01:53:49: [SM] Changed map to "dod_anvil"
+L 07/23/2020 - 01:53:49: [SM] Changed map to "dod_anvil"
+L 07/23/2020 - 01:53:52: -------- Mapchange to dod_anvil --------
+L 07/23/2020 - 01:53:52: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:53:54: -------- Mapchange to dod_anvil --------
+L 07/23/2020 - 01:53:54: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 01:53:59: [randomcycle.smx] RandomCycle has chosen dod_murky_p2 for the nextmap.
+L 07/23/2020 - 02:02:52: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 02:03:58: [SM] Changed map to "dod_churchyard"
+L 07/23/2020 - 02:03:58: [SM] Changed map to "dod_churchyard"
+L 07/23/2020 - 02:04:00: -------- Mapchange to dod_churchyard --------
+L 07/23/2020 - 02:04:00: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:04:02: -------- Mapchange to dod_churchyard --------
+L 07/23/2020 - 02:04:02: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:04:07: [randomcycle.smx] RandomCycle has chosen dod_sniper_wars_beta for the nextmap.
+L 07/23/2020 - 02:13:00: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 02:14:06: [SM] Changed map to "dod_avalanche@night"
+L 07/23/2020 - 02:14:06: [SM] Changed map to "dod_avalanche@night"
+L 07/23/2020 - 02:14:10: -------- Mapchange to dod_avalanche@night --------
+L 07/23/2020 - 02:14:10: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:14:11: -------- Mapchange to dod_avalanche@night --------
+L 07/23/2020 - 02:14:12: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:14:17: [randomcycle.smx] RandomCycle has chosen dod_churchyard for the nextmap.
+L 07/23/2020 - 02:23:10: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 02:24:17: [SM] Changed map to "dod_dust2_tdf"
+L 07/23/2020 - 02:24:17: [SM] Changed map to "dod_dust2_tdf"
+L 07/23/2020 - 02:24:18: -------- Mapchange to dod_dust2_tdf --------
+L 07/23/2020 - 02:24:18: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:24:19: -------- Mapchange to dod_dust2_tdf --------
+L 07/23/2020 - 02:24:20: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:24:25: [randomcycle.smx] RandomCycle has chosen dod_orange_indoor_dream_arena for the nextmap.
+L 07/23/2020 - 02:33:18: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 02:34:24: [SM] Changed map to "dod_flash"
+L 07/23/2020 - 02:34:24: [SM] Changed map to "dod_flash"
+L 07/23/2020 - 02:34:25: -------- Mapchange to dod_flash --------
+L 07/23/2020 - 02:34:25: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:34:26: -------- Mapchange to dod_flash --------
+L 07/23/2020 - 02:34:26: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:34:32: [randomcycle.smx] RandomCycle has chosen dod_anzio for the nextmap.
+L 07/23/2020 - 02:43:25: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 02:44:31: [SM] Changed map to "dod_anzio"
+L 07/23/2020 - 02:44:31: [SM] Changed map to "dod_anzio"
+L 07/23/2020 - 02:44:32: -------- Mapchange to dod_anzio --------
+L 07/23/2020 - 02:44:32: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:44:33: -------- Mapchange to dod_anzio --------
+L 07/23/2020 - 02:44:34: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 02:44:39: [randomcycle.smx] RandomCycle has chosen dod_avalanche@night for the nextmap.
+L 07/23/2020 - 02:53:32: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 03:13:15: [SM] Changed map to "dod_arrierveld"
+L 07/23/2020 - 03:13:15: [SM] Changed map to "dod_arrierveld"
+L 07/23/2020 - 03:13:16: -------- Mapchange to dod_arrierveld --------
+L 07/23/2020 - 03:13:16: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 03:13:18: -------- Mapchange to dod_arrierveld --------
+L 07/23/2020 - 03:13:18: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 03:13:23: [randomcycle.smx] RandomCycle has chosen dod_orange_sniper for the nextmap.
+L 07/23/2020 - 03:22:16: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 03:23:22: [SM] Changed map to "dod_stug"
+L 07/23/2020 - 03:23:22: [SM] Changed map to "dod_stug"
+L 07/23/2020 - 03:23:27: -------- Mapchange to dod_stug --------
+L 07/23/2020 - 03:23:28: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 03:23:30: -------- Mapchange to dod_stug --------
+L 07/23/2020 - 03:23:30: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 03:23:35: [randomcycle.smx] RandomCycle has chosen dod_lerouge for the nextmap.
+L 07/23/2020 - 03:32:28: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 03:33:34: [SM] Changed map to "dod_orange_indoor_dream_arena"
+L 07/23/2020 - 03:33:34: [SM] Changed map to "dod_orange_indoor_dream_arena"
+L 07/23/2020 - 03:33:35: -------- Mapchange to dod_orange_indoor_dream_arena --------
+L 07/23/2020 - 03:33:35: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 03:33:36: -------- Mapchange to dod_orange_indoor_dream_arena --------
+L 07/23/2020 - 03:33:36: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 03:33:41: [randomcycle.smx] RandomCycle has chosen dod_sniper_wars_beta for the nextmap.
+L 07/23/2020 - 03:42:34: [mapchooser.smx] Voting for next map has started.
+L 07/23/2020 - 03:43:40: [SM] Changed map to "dod_avalanche@night"
+L 07/23/2020 - 03:43:40: [SM] Changed map to "dod_avalanche@night"
+L 07/23/2020 - 03:43:42: -------- Mapchange to dod_avalanche@night --------
+L 07/23/2020 - 03:43:43: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 03:43:44: -------- Mapchange to dod_avalanche@night --------
+L 07/23/2020 - 03:43:44: [adminsounds.smx] 64 sounds loaded
+L 07/23/2020 - 03:43:49: [randomcycle.smx] RandomCycle has chosen dod_beachlanding_tdf for the nextmap.
+L 07/23/2020 - 03:52:42: [mapchooser.smx] Voting for next map has started.
